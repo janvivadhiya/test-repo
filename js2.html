@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Hello....</h2>
+
+<p id="demo">my name is janvi....</p>
+
+<button id="div" onclick="myFunction()">Hide Me!</button>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("demo");
+      var y = document.getElementById("div");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        y.textContent = "Hide Me!";
+      } else {
+        x.style.display = "none";
+        y.textContent = "Show Me!";
+      }
+    }
+    </script>
+
+</body>
+</html> 
